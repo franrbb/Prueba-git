@@ -7,6 +7,8 @@ public class Prueba {
 	
 	private String nombre;
 	
+	private String apellidos;
+	
 	private String descripcion;
 
 	public Long getId() {
@@ -23,6 +25,14 @@ public class Prueba {
 
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
+	}
+	
+	public String getApellidos() {
+		return apellidos;
+	}
+
+	public void setApellidos(String apellidos) {
+		this.apellidos = apellidos;
 	}
 
 	public String getDescripcion() {
