@@ -10,6 +10,8 @@ public class Prueba {
 	private String apellidos;
 	
 	private String descripcion;
+	
+	private String detalles;
 
 	public Long getId() {
 		return id;
@@ -41,6 +43,14 @@ public class Prueba {
 
 	public void setDescripcion(String descripcion) {
 		this.descripcion = descripcion;
+	}
+
+	public String getDetalles() {
+		return detalles;
+	}
+
+	public void setDetalles(String detalles) {
+		this.detalles = detalles;
 	}
 
 }
